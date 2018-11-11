@@ -11,9 +11,9 @@ This is a user-focused virtual business card application where you can leave you
 - React.js and Javascript for front end templates and client side logic
 
 ## Collaborators
-- Johnathan Chen - Front End and UI Design - Sketch, React.js, Javacript
-- Tahshara Boochee - Front End - React.js, Javacript
+- Johnathan Chen - Front End and UI Design - Sketch, React.js, Javascript
+- Tahshara Boochee - Front End - React.js, Javascript
 - Stephanie Cherubin - Front End, OAuth - React.js, Javascript
-- Edwin Cloud - Back End, APIs, OAuth - Javacript, React.js, Node.js, Express.js
-- Lucia Reynoso - Back End, APIs, OAuth - Javacript, Node.js, Express.js
+- Edwin Cloud - Back End, APIs, OAuth - Javascript, React.js, Node.js, Express.js
+- Lucia Reynoso - Back End, APIs, OAuth - Javascript, Node.js, Express.js
 - Faith Chikwekwe - Project Manager, Front End, Back End - React.js, Javascript, Node.js, Express.js
