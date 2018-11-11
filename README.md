@@ -5,8 +5,8 @@ Why carry business cards around when your face can be your business card?
 This is a user-focused virtual business card application where you can leave your business card at home and embrace the use of augmented reality. You store your business card in the app and manage your privacy settings. When you're out in the world, your contact hovers their camera over your face and the app will recognize your image. This will send you an access notification and you can share your business card with them as well as connect with them on Linked in.  
 ## Our Stack
 - Clarifai API for image recognition
-- MongoDB and Mongoose for the database
-- Express.js and Node.js for resourceful routing server side functions
+- MongoDB and Mongoose for database use and access
+- Express.js and Node.js for server logic and HTTP requests
 - React.js and Javascript for front end
 
 ## Collaborators
