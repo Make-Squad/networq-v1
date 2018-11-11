@@ -7,7 +7,7 @@ This is a user-focused virtual business card application where you can leave you
 - Clarifai API for image recognition
 - MongoDB and Mongoose for database use and access
 - Express.js and Node.js for server logic and HTTP requests
-- React.js and Javascript for front end
+- React.js and Javascript for front end templates and client side logic
 
 ## Collaborators
 - Johnathen Chen - Front End and UI Design - Sketch, React.js, Javacript
