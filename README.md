@@ -18,7 +18,7 @@ To start up your **local dev** envirement run:
 $ npm run dev
 ```
 
-Run **Test**
+Run **test**
 
 ```
 $ npm t
