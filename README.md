@@ -1,8 +1,16 @@
+<p align="center">
+  <a href="http://docs.fitii.fit"><img src="https://raw.githubusercontent.com/johnathanachen/Fitii/master/docs/logo.png" width="300" alt="Fitii"></a>
+  <br>
+  <a href="#"><img src="https://img.shields.io/badge/npm-v1.0.0-42b983.svg" alt="Version"></a>
+  <a href="#"><img src="https://img.shields.io/shippable/:projectId.svg" alt="License"></a>
+  <a href="#"><img src="https://travis-ci.org/johnathanachen/Fitii.svg?branch=master" alt="Travis CI"></a>
+</p>
+
 # networq - The Virtual Business Card
 
-Why carry business cards around when your face can be your business card?
+> Why carry business cards around when your face can be your business card?
 
-This is a user-focused virtual business card application where you can leave your business card at home and embrace the use of augmented reality. You store your business card in the app and manage your privacy settings. When you're out in the world, your contact hovers their camera over your face and the app will recognize your image. This will send you an access notification and you can share your business card with them as well as connect with them on Linked in.  
+> This is a user-focused virtual business card application where you can leave your business card at home and embrace the use of augmented reality. You store your business card in the app and manage your privacy settings. When you're out in the world, your contact hovers their camera over your face and the app will recognize your image. This will send you an access notification and you can share your business card with them as well as connect with them on Linked in.  
 
 # Installation
 
