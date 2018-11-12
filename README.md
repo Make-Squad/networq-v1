@@ -30,7 +30,30 @@ Serve up **docs**
 $ npm run dev
 ```
 
-
+```
+root/
+|
+|-- client/                  # Client side files (React)
+|   |-- public/              # public files   
+|   |-- src/                 # source files
+|       |-- app/             # App files
+|       |-- componets/
+|       |-- assets/
+|            |-- images/
+|            |-- styles/     # Template styles (buttoms, colors, typography, etc)
+|   
+|-- config/                  # Partials
+|   |-- dev.js               # imports for all mixins + global project variables
+|   |-- keys.js              # buttons
+|   |-- prod.js              # figures
+|
+|-- controllers/       
+|-- models/ 
+|-- routes/ 
+|-- services/ 
+|
+`-- server.js                # server setup
+```
 
 ## Our Stack
 - Clarifai API for image recognition
