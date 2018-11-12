@@ -13,8 +13,7 @@ mongoose.connect(
 );
 
 const authKeys = require("./config/keys");
-const passport = require("passport");
-require("./services/passport.js");
+
 const cookieSession = require("cookie-session");
 const bodyParser = require("body-parser");
 app.use(
@@ -29,8 +28,6 @@ app.use(
     keys: [authKeys.cookieKey]
   })
 );
-app.use(passport.initialize());
-app.use(passport.session());
 
 
 if (process.env.NODE_ENV === "production") {
