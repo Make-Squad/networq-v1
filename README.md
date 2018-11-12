@@ -40,12 +40,12 @@ root/
 |       |-- componets/
 |       |-- assets/
 |            |-- images/
-|            |-- styles/     # Template styles (buttoms, colors, typography, etc)
+|            |-- styles/     # Template styles (buttons, colors, typography, etc)
 |   
-|-- config/                  # Partials
-|   |-- dev.js               # imports for all mixins + global project variables
-|   |-- keys.js              # buttons
-|   |-- prod.js              # figures
+|-- config/                  
+|   |-- dev.js               
+|   |-- keys.js              
+|   |-- prod.js              
 |
 |-- controllers/       
 |-- models/ 
