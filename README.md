@@ -45,7 +45,7 @@ root/
 |   |-- public/              # public files   
 |   |-- src/                 # source files
 |       |-- app/             # App files
-|       |-- componets/
+|       |-- components/
 |       |-- assets/
 |            |-- images/
 |            |-- styles/     # Template styles (buttons, colors, typography, etc)
@@ -56,9 +56,9 @@ root/
 |   |-- prod.js              
 |
 |-- controllers/       
-|-- models/ 
-|-- routes/ 
-|-- services/ 
+|-- models/
+|-- routes/
+|-- services/
 |
 `-- server.js                # server setup
 ```
