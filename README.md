@@ -1,7 +1,6 @@
 <p align="center">
   <a href="http://docs.fitii.fit"><img src="https://github.com/Make-Squad/networq-v1/blob/master/docs/assets/images/Networkq.png?raw=true" width="300" alt="Fitii"></a>
   <br>
-  
   <a href="#"><img src="https://img.shields.io/badge/version-v1.0.0-blue.svg" alt="Version"></a>
   <a href="#"><img src="https://img.shields.io/shippable/:projectId.svg" alt="License"></a>
   <a href="#"><img src="https://travis-ci.org/johnathanachen/Fitii.svg?branch=master" alt="Travis CI"></a>
