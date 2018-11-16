@@ -1,8 +1,13 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
+const validator = require('validator');
 
 const userSchema = mongoose.Schema({
-  name : {
+  firstName : {
+    type: String,
+    required: true
+  },
+  lastName : {
     type: String,
     required: true
   },
