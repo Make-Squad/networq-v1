@@ -41,14 +41,15 @@ $ npm run dev
 ```
 root/
 |
-|-- client/                  # Client side files (React)
-|   |-- public/              # public files   
+|-- client/                  # Client side folders
+|   |-- public/              # public files
+|       |-- views/           # React files; html files
+|       |-- styles/          # Template styles (buttons, colors, typography, etc)
+|       |-- images/
+|       |-- js/              # client side javascript
 |   |-- src/                 # source files
 |       |-- app/             # App files
 |       |-- components/
-|       |-- assets/
-|            |-- images/
-|            |-- styles/     # Template styles (buttons, colors, typography, etc)
 |   
 |-- config/                  
 |   |-- dev.js               
@@ -59,6 +60,8 @@ root/
 |-- models/
 |-- routes/
 |-- services/
+|-- middlewares/
+|-- tests/
 |
 `-- server.js                # server setup
 ```
