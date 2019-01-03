@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://docs.fitii.fit"><img src="https://github.com/Make-Squad/networq-v1/blob/master/docs/assets/images/Networq.png?raw=true" width="300" alt="Fitii"></a>
+  <a href="http://docs.fitii.fit"><img src="https://github.com/Make-Squad/networq-v1/blob/master/client/public/images/Networq.png" width="300" alt="Fitii"></a>
   <br>
   <a href="#"><img src="https://img.shields.io/badge/version-v1.0.0-blue.svg" alt="Version"></a>
   <a href="#"><img src="https://img.shields.io/badge/tests-passing-brightgreen.svg" alt="Version"></a>
