@@ -20,7 +20,7 @@ To install the required **modules**, run the command
 $ npm i
 ```
 
-To start up your **local dev** envirement run:
+To start up your **local dev** environment run:
 
 ```
 $ npm run dev
