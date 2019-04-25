@@ -29,7 +29,7 @@ $ npm run dev
 Run **test**
 
 ```
-$ npm t
+$ npm test
 ```
 
 Serve up **docs**
@@ -50,17 +50,9 @@ root/
 |   |-- src/                 # source files
 |       |-- app/             # App files
 |       |-- components/
-|   
-|-- config/                  
-|   |-- dev.js               
-|   |-- keys.js              
-|   |-- prod.js              
 |
 |-- controllers/       
 |-- models/
-|-- routes/
-|-- services/
-|-- middlewares/
 |-- tests/
 |
 `-- server.js                # server setup
@@ -73,9 +65,5 @@ root/
 - React.js and Javascript for front end templates and client side logic
 
 ## Collaborators
-- Johnathan Chen - Front End and UI Design - Sketch, React.js, Javascript
-- Tahshara Boochee - Front End - React.js, Javascript
 - Stephanie Cherubin - Front End, OAuth - React.js, Javascript
-- Edwin Cloud - Back End, APIs, OAuth - Javascript, React.js, Node.js, Express.js
-- Lucia Reynoso - Back End, APIs, OAuth - Javascript, Node.js, Express.js
 - Faith Chikwekwe - Project Manager, Front End, Back End - React.js, Javascript, Node.js, Express.js
