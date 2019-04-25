@@ -65,5 +65,5 @@ root/
 - React.js and Javascript for front end templates and client side logic
 
 ## Collaborators
-- Stephanie Cherubin - Front End, OAuth - React.js, Javascript
-- Faith Chikwekwe - Project Manager, Front End, Back End - React.js, Javascript, Node.js, Express.js
+- Stephanie Cherubin - Front End, Product Design - React.js, Javascript
+- Faith Chikwekwe - Back End, Gitmaster - React.js, Javascript, Node.js, Express.js
