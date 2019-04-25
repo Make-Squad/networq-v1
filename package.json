@@ -5,17 +5,17 @@
     "node": ">=10.11.0"
   },
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node app.js",
+    "server": "nodemon app.js",
     "test": "mocha --exit tests/**/*",
     "test:update": "jest --silent -u",
     "test:watch": "jest --silent --watch",
     "test:coverage": "jest --silent --coverage",
     "docs": "docsify serve docs",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"" // might change this
+    "dev": "concurrently \"npm run app\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -29,14 +29,14 @@
   "homepage": "https://github.com/Make-Squad/networq-v1/blob/master/README.md",
   "dependencies": {
     "bcrypt": "^3.0.2",
-    "concurrently": "^3.6.1",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
     "cookie-session": "^2.0.0-beta.3",
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
-    "helmet": "^3.15.0",
-    "mongoose": "^5.3.5",
-    "passport": "^0.4.0",
-    "rate-limiter-flexible": "^0.18.5",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.4",
     "validator": "^10.9.0"
   },
   "devDependencies": {

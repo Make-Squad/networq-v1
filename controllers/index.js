@@ -5,6 +5,7 @@ module.exports = (app) => {
     // ROOT
     app.get('/', (req, res) => {
         const currentUser = req.user;
-        res.render('index', { currentUser });
+        const helloWorld = 'Hello world!'
+        res.json(helloWorld);
     });
 }
