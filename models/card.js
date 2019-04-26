@@ -4,22 +4,44 @@ const validator = require('validator');
 const cardSchema = mongoose.Schema({
   firstName : {
     type: String,
-    required: true
+    required: true,
   },
   lastName : {
     type: String,
-    required: true
+    required: true,
   },
   phone : {
     type: String,
-    required: true
   },
   email: {
     type: String,
-    required: true,
     index: true,
     unique: true,
-    minlength: 6
+    minlength: 6,
+  },
+  employer: {
+    type: String,
+  },
+  jobTitle: {
+    type: String,
+    required: true,
+    minlength: 5,
+  },
+  jobDescription: {
+    type: String,
+    minlength: 10,
+  },
+  city: {
+    type: String,
+    minlength: 2,
+  },
+  state: {
+    type: String,
+    minlength: 2,
+  },
+  zip: {
+    type: Number,
+    minlength: 5
   },
 });
 
