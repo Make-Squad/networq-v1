@@ -12,6 +12,7 @@ const cardSchema = mongoose.Schema({
   },
   phone : {
     type: String,
+    minlength: 7,
   },
   email: {
     type: String,
