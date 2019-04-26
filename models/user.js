@@ -27,7 +27,16 @@ const userSchema = mongoose.Schema({
     required: true,
     minlength: 6
   },
+  profilePhotoUrl: {
+    type: String, 
+  },
+  photos: {
+    type: Array,
+  },
   employer: {
+    type: String,
+  },
+  employmentStatus: {
     type: String,
   },
   jobTitle: {
