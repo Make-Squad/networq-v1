@@ -8,7 +8,6 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
-const exphbs = require('express-handlebars');
 const methodOverride = require('method-override');
 const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
@@ -19,8 +18,6 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 /** Use middlewares */
-app.engine('handlebars', exphbs({ defaultLayout: 'main' }));
-app.set('view engine', 'handlebars');
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json({ limit: '70mb', extended: true }));
 app.use(bodyParser.urlencoded({ limit: '70mb', extended: true }));
@@ -55,8 +52,8 @@ db.once('open', () => {
 
 /** Require controller(s) */
 require('./controllers/index')(app);
-require('./controllers/auth')(app);
-require('./controllers/users')(app);
+// require('./controllers/auth')(app);
+// require('./controllers/users')(app);
 
 /** Port listener */
 app.listen(PORT, () => {

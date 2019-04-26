@@ -66,4 +66,4 @@ root/
 
 ## Collaborators
 - Stephanie Cherubin - Front End, Product Design - React.js, Javascript
-- Faith Chikwekwe - Back End, Gitmaster - React.js, Javascript, Node.js, Express.js
+- Faith Chikwekwe - Back End, Gitmaster - Node.js, Express.js, Javascript
