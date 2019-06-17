@@ -27,6 +27,39 @@ const userSchema = mongoose.Schema({
     required: true,
     minlength: 6
   },
+  profilePhotoUrl: {
+    type: String, 
+  },
+  photos: {
+    type: Array,
+  },
+  employer: {
+    type: String,
+  },
+  employmentStatus: {
+    type: String,
+  },
+  jobTitle: {
+    type: String,
+    required: true, // if unemployed put what you'd like to have
+    minlength: 5,
+  },
+  jobDescription: {
+    type: String,
+    minlength: 10,
+  },
+  city: {
+    type: String,
+    minlength: 2,
+  },
+  state: {
+    type: String,
+    minlength: 2,
+  },
+  zip: {
+    type: Number,
+    minlength: 5
+  },
   admin : {
     type: Boolean, 
     default: false 

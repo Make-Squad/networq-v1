@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://docs.fitii.fit"><img src="https://github.com/Make-Squad/networq-v1/blob/master/docs/assets/images/Networq.png?raw=true" width="300" alt="Fitii"></a>
+  <a href="http://docs.fitii.fit"><img src="https://github.com/Make-Squad/networq-v1/blob/master/client/public/images/Networq.png" width="300" alt="Fitii"></a>
   <br>
   <a href="#"><img src="https://img.shields.io/badge/version-v1.0.0-blue.svg" alt="Version"></a>
   <a href="#"><img src="https://img.shields.io/badge/tests-passing-brightgreen.svg" alt="Version"></a>
@@ -20,7 +20,7 @@ To install the required **modules**, run the command
 $ npm i
 ```
 
-To start up your **local dev** envirement run:
+To start up your **local dev** environment run:
 
 ```
 $ npm run dev
@@ -29,7 +29,7 @@ $ npm run dev
 Run **test**
 
 ```
-$ npm t
+$ npm test
 ```
 
 Serve up **docs**
@@ -50,17 +50,9 @@ root/
 |   |-- src/                 # source files
 |       |-- app/             # App files
 |       |-- components/
-|   
-|-- config/                  
-|   |-- dev.js               
-|   |-- keys.js              
-|   |-- prod.js              
 |
 |-- controllers/       
 |-- models/
-|-- routes/
-|-- services/
-|-- middlewares/
 |-- tests/
 |
 `-- server.js                # server setup
@@ -73,9 +65,5 @@ root/
 - HTML, Bootstrap, CSS, Sass, React.js and Javascript for front end templates and client side logic
 
 ## Collaborators
-- Johnathan Chen - Front End and UI Design - Sketch, React.js, Javascript
-- Tahshara Boochee - Front End - React.js, Javascript
-- Stephanie Cherubin - Front End, OAuth - React.js, Javascript
-- Edwin Cloud - Back End, APIs, OAuth - Javascript, React.js, Node.js, Express.js
-- Lucia Reynoso - Back End, APIs, OAuth - Javascript, Node.js, Express.js
-- Faith Chikwekwe - Project Manager, Front End, Back End - React.js, Javascript, Node.js, Express.js
+- Stephanie Cherubin - Front End, Product Design - React.js, Javascript
+- Faith Chikwekwe - Back End, Gitmaster - Node.js, Express.js, Javascript
