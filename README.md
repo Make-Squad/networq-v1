@@ -62,8 +62,8 @@ root/
 - Clarifai API for image recognition
 - MongoDB and Mongoose for database use and access
 - Express.js and Node.js for server logic and HTTP requests
-- React.js and Javascript for front end templates and client side logic
+- HTML, Bootstrap, CSS, Sass, React.js and Javascript for front end templates and client side logic
 
 ## Collaborators
-- Stephanie Cherubin - Front End, Product Design - React.js, Javascript
+- Stephanie Cherubin - Front End, UI Design - React.js, Javascript
 - Faith Chikwekwe - Back End, Gitmaster - Node.js, Express.js, Javascript

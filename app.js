@@ -36,7 +36,22 @@ const checkAuth = (req, res, next) => {
     next();
 };
 
+/** Custom auth-checking middleware */
+const checkUser = (req, res, next) => {
+    if (req.user){
+        let currentUser = req.user;
+        console.log("currentUser", currentUser);
+    } else {
+        // console.log("User is not currently logged in!")
+        // let currentUser = null;
+        // console.log("currentUser", currentUser);
+    }
+    next();
+};
+
+/* Use custom middlewares */
 app.use(checkAuth);
+app.use(checkUser);
 
 /** Database connection */
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/networq', {
