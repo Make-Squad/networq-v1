@@ -31,7 +31,7 @@
     "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
-    "cookie-session": "^2.0.0-beta.3",
+    "cookie-session": "^1.4.0",
     "dotenv": "^8.2.0",
     "eslint-utils": "^2.0.0",
     "express": "^4.17.1",
