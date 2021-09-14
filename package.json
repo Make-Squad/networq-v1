@@ -46,7 +46,7 @@
     "mixin-deep": "^2.0.1",
     "mongoose": "^5.12.10",
     "path": "^0.12.7",
-    "set-value": "^4.0.0",
+    "set-value": "^4.0.1",
     "validator": "^13.6.0",
     "webpack-dev-server": "^3.11.2"
   },
