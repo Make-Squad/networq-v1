@@ -44,7 +44,7 @@
     "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "method-override": "^3.0.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mixin-deep": "^2.0.1",
     "mongoose": "^5.12.10",
     "node": "^17.1.0",
