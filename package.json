@@ -51,7 +51,7 @@
     "path": "^0.12.7",
     "set-value": "^4.0.1",
     "validator": "^13.7.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.11.1"
   },
   "devDependencies": {
     "chai": "^4.3.4",
