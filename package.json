@@ -40,7 +40,7 @@
     "handlebars": "^4.7.7",
     "ini": "^2.0.0",
     "js-yaml": "^4.1.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "method-override": "^3.0.0",
